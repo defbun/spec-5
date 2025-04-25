@@ -1,0 +1,209 @@
+/*
+GENERAL styles common for all/most pages, version: 1.2, updated 2005.02.10
+*/
+body, table, caption, th, td, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div, span, fieldset, legend, form, input, select {
+	font-family:		Arial, Helvetica, sans-serif; /* assign Arial font to all page elements */
+}
+body {
+	margin:				0px;
+	padding:			0px;
+	background-color:	#fff;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+	display:			block;
+	/*clear:			both;*/
+}
+h1 {
+	font-size:			110%;
+	font-weight:		normal;
+}
+h2 {
+	font-weight:		bold;
+	text-align:			center;
+}
+h3 {
+	font-size:			90%;
+	font-weight:		bold;
+	margin-top:			40px;
+	margin-bottom:		0px;		
+}
+h4 {
+	font-size:			80%;
+	font-weight:		bold;
+}
+h5 {
+	font-size:			70%;
+	font-weight:		bold;
+}
+h6 {
+	font-size:			70%;
+	font-weight:		normal;
+	font-style:			italic;
+}
+p {
+	font-size:			80%;
+}
+ul {
+	list-style-type:	square;
+}
+ul, ol {
+	font-size:			80%;
+}
+li ul, li ol, li p {
+	font-size:			100%;
+}
+li ul, li ol {
+	list-style-type:	disc;
+}
+li p {
+	padding:			0px;
+	margin:				0px;
+}
+li span {
+	color:				#000;
+}
+
+img {
+	border:				0px none #fff;
+}
+	/* default link */
+a:link, a:visited, a:hover, a:active {
+	/*background-color: transparent; */
+}
+a:link {
+	color:				#039;
+}
+a:visited {
+	color:				#936;
+}
+a:hover {
+	color:				#c00;
+}
+a:active {
+	color:				#f00;
+}
+a.m { /* MORE link */
+	font-style:			italic;
+}
+
+p.b, span.b {
+	font-weight:		bold;
+}
+p.em, span.em {
+	font-style:			italic;
+}
+
+p.new {
+	margin-top:			40px;
+}
+
+span.nobr {
+	white-space:		nowrap;
+}
+
+
+/* BLOCK CONTAINERS */
+.r { /* row container */
+	display:			block;
+	clear:				both;
+	width:				100%;
+	height:				auto;
+}
+.rc { /* general row column - width calculated automaticly, usually stretched to fulfill the rest of the space */
+	float:				left;
+	width:				auto;
+	height:				100%;
+}
+/* columns with different width */
+.rc25 {
+	width:				25%;
+}
+.rc33 {
+	width:				33%;
+}
+.rc50 {
+	width:				50%;
+}
+.rc75 {
+	width:				75%;
+}
+
+
+div.ill { /* illustration image and title */
+	display:			block;
+	clear:				both;
+/*	width:				100%;*/
+	height:				auto;
+	text-align:			center;
+}
+div.ill img {
+}
+div.ill p {
+	font-style:			italic;
+}
+
+
+/* VISUAL FORMATTING - vf */
+div.p5r {
+	padding-right:		5%;
+}
+div.vfp10r {
+	padding-right:		10%;
+}
+.vfar { /* align right */
+	text-align:			right;
+}
+
+
+div.vfem, span.vfem {
+	font-style:			italic;
+}
+div.vfb, span.vfb {
+	font-weight:		bold;
+}
+/*div.rc25 {
+	padding-right:		5%;
+}
+div.rc33 {
+	padding-right:		5%;
+}
+div.rc50 {
+	padding-right:		5%;
+}*/
+
+
+/* lists
+ul.r {
+	display:			block;
+	clear:				both;
+	width:				100%;
+	height:				auto;
+}
+ul.rc {
+	float:				left;
+	width:				auto;
+	height:				100%;
+}
+li.rc {
+	float:				left;
+	width:				auto;
+	height:				100%;
+}
+ul.rc25 {
+	width:				25%;
+}
+li.rc25 {
+	width:				25%;
+}
+ul.rc33 {
+	width:				33%;
+}
+li.rc33 {
+	width:				33%;
+}
+ul.rc50 {
+	width:				50%;
+}
+li.rc50 {
+	width:				50%;
+} */
